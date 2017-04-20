@@ -1,0 +1,244 @@
+.coupons-container {
+  max-width: 1349px;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: #eaeae9;
+
+  .coupons-text {
+    text-align: center;
+
+    .coupons-first-text {
+      font-size: 36px;
+      font-family: LatoL;
+      margin-top: 40px;
+      margin-bottom: 5px;
+    }
+    .coupons-second-text {
+      font-family: LatoR;
+      font-size: 18px;
+      color: #999999;
+      margin-bottom: 45px;
+      display: block;
+    }
+  }
+}
+.second-carousel {
+  padding: 0px 152px;
+  margin-bottom: 19px;
+
+  .img-item {
+    padding: 0px 23px;
+    text-align: center;
+
+    & > a {
+      position: relative;
+    }
+
+    & > a:hover {
+      text-decoration: none;
+    }
+    .carousel-images {
+      border: 5px solid white;
+    }
+    .img-hover {
+      height: 150px;
+      background-color: rgba(34,34,34,.7);
+      position: absolute;
+      width: 221px;
+      top: -66px;
+      left: 0px;
+      opacity: 0;
+      color: #face0e;
+      font-size: 36px;
+      font-family: LatoB;
+      text-align: center;
+
+      .img-hover-text {
+        display: block;
+        margin: 15px;
+        height: 120px;
+        border: 1px dashed #97999d;
+        padding-top: 16px;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .img-item-text {
+      text-align: center;
+      display: block;
+      font-size: 18px;
+      font-family: MyriadPS;
+      margin-top: 16px;
+      color: #565656;
+      margin-bottom: 40px;
+    }
+  }
+}
+.slide-items:after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #cbcccb;
+}
+.left-control,
+.right-control {
+  background-image: none !important;
+  opacity: 1;
+  width: 12%;
+}
+.chevron-left {
+  width: 30px;
+  height: 30px;
+  background: url(../images/chevrons.png) 0px 1px;
+  position: absolute;
+  top: 27%;
+  right: 50px;
+}
+.chevron-right {
+  width: 30px;
+  height: 30px;
+  background: url(../images/chevrons.png) 30px 1px;
+  position: absolute;
+  top: 27%;
+  left: 46px;
+}
+.search-coupons {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: MyriadPR;
+  font-size: 18px;
+  color: #5e5e5d;
+  padding-bottom: 20px;
+
+  .search-text {
+    display: block;
+    margin-bottom: 17px;
+  }
+  .coupons-btn {
+    margin-top: 30px;
+    width: 169px;
+    height: 46px;
+    background-color: #333333;
+    color: white;
+    border-radius: 0px;
+    font-family: MyriadPS;
+    font-size: 15px;
+    margin-bottom: 30px;
+
+    &:active {
+      background-color: #666666;
+      color: white;
+    }
+    &:hover {
+      background-color: #666666;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.coupons-box {
+  margin: 0px;
+}
+.coupons-form {
+  max-width: 871px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #333333;
+  padding: 11px 0px;
+
+  .first-coupons-input {
+    font-family: LatoR;
+    font-size: 15px;
+    width: 498px;
+    max-width: 100%;
+    border-radius: 0px;
+    border: none;
+    height: 42px;
+  }
+  .coupons-input-group {
+    width: 224px;
+
+    .second-coupons-input {
+      font-family: LatoR;
+      font-size: 15px;
+      border-radius: 0px;
+      border: none;
+      height: 42px;
+    }
+  }
+  .coupons-in-text {
+    text-transform: lowercase;
+    color: white;
+    background-color: #face0e;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 3px;
+    font-family: LatoBI;
+    font-size: 19px;
+    margin: 0px 4px;
+    //display: inline-block;
+  }
+  .dropdown-btn {
+    width: 37px;
+    border: none;
+    border-radius: 0px;
+    height: 42px;
+    background-color: #face0e;
+
+
+    .fa-angle-down {
+      color: #ffffff;
+      font-size: 18px;
+    }
+  }
+  .dropdown-btn:hover {
+    background-color: #face0e;
+  }
+  .dropdown-btn:focus {
+    outline: none;
+  }
+  .open > .dropdown-btn,
+  .open > .dropdown-btn:hover,
+  .open > .dropdown-btn:focus {
+    background-color: #face0e;
+  }
+  .list-country {
+    border-radius: 0px;
+    min-width: 226px;
+    right: -1px;
+    top: 94%;
+
+
+    & > li {
+      text-transform: capitalize;
+
+      a {
+        color: grey;
+      }
+    }
+  }
+  .coupons-form-btn {
+    border: none;
+    border-radius: 0px;
+    height: 42px;
+    width: 59px;
+    background-color: #face0e;
+    margin-left: 12px;
+
+    .fa-arrow-circle-right {
+      color: #ffffff;
+      font-size: 25px;
+    }
+  }
+  .coupons-form-btn:active {
+    background-color: #face0e;
+  }
+  .coupons-form-btn:focus {
+    outline: none;
+  }
+}
